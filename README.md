@@ -1,6 +1,6 @@
 # AVR_SI4703
 This is a SI4703 FM Tuner Library for AVR(ATmega128A)<br>
-https://blog.naver.com/eziya76
+https://blog.naver.com/eziya76/221297629619
 
 Reference : https://github.com/mathertel/Radio<br>
 Si4703 breakout : https://www.sparkfun.com/products/11083<br>
