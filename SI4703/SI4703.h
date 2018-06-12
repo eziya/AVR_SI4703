@@ -17,8 +17,7 @@
 #define SI4703_PIN		PIND
 #define SI4703_SCLK		PD0
 #define SI4703_SDIO		PD1
-#define SI4703_SEN		PD2
-#define SI4703_RST		PD3		
+#define SI4703_RST		PD2		
 
 #define SI4703_DEVICEADDR	0x10
 

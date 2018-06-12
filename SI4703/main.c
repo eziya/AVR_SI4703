@@ -41,7 +41,12 @@ int main(void)
 			
 		}
 	}
-	
+	else
+	{
+		memset(msg, 0, sizeof(msg));
+		sprintf(msg, "SI4703_Init succeeded.\r\n");
+		USART0_TxBuffer((uint8_t *)msg, strlen(msg));	
+	}	
 	
     /* Replace with your application code */
     while (1) 
