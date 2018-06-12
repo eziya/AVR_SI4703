@@ -69,9 +69,9 @@ bool SI4703_Init()
 	/* Set Space as 00 (Korea) */
 	SI4703_Regs[REG_SYSCONFIG2] &= ~((1 << IDX_SPACE0)|(1 << IDX_SPACE1));
 			
-	/* Set Volume as 8 */
+	/* Set Volume as 0x0F */
 	SI4703_Regs[REG_SYSCONFIG2] &= 0xFFF0;
-	SI4703_Regs[REG_SYSCONFIG2] |= 0x08;
+	SI4703_Regs[REG_SYSCONFIG2] |= 0x0F;
 	
 	/* Set Seek Threshold, Recommended 0x19 */
 	SI4703_Regs[REG_SYSCONFIG2] &= ~(MASK_SEEKTH);
