@@ -12,3 +12,5 @@ Amplifier + Speaker : https://www.dfrobot.com/product-1401.html
 2) Set SEN pin as HIGH when communication is initialized for I2C.
 3) Amplifier + Speaker is needed for LOUT or ROUT 
 
+![Si4703_1](./Si4703_1.jpg)<br>
+![Si4703_2](./Si4703_2.jpg)<br>
